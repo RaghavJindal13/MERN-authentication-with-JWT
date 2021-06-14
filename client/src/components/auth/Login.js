@@ -66,7 +66,7 @@ function Login() {
         <h5 className="form-input-label ilb" style={{float: 'left'}}>PASSWORD</h5>
 
 
-        <h5 className="form-input-label ilb" style={{float: 'right', color: '#8798AD', fontWeight: 300, cursor: 'pointer'}}><a>Forgot Password?</a></h5>
+        <h5 className="form-input-label ilb" style={{float: 'right', color: '#8798AD', fontWeight: 300, cursor: 'pointer'}}><a href="/login">Forgot Password?</a></h5>
         <input className="form-input" 
           type="password" 
           placeholder="Password"
@@ -83,7 +83,7 @@ function Login() {
     </div>
   </div>
 
-  <img src={img} className="landing-image" />
+  <img src={img} className="landing-image" alt="landing"/>
 </div>
 </form>
      

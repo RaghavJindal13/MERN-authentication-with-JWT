@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 
-class Customers extends Component {
+class Myprofile extends Component {
     render() {
         return (
             <div>
-                customer route
+                <h1>my name is  :</h1>
             </div>
         );
     }
 }
 
-export default Customers;
+export default Myprofile;

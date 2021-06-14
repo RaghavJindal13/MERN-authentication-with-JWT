@@ -86,7 +86,7 @@ function Register() {
     </div>
   </div>
 
-  <img src={img} className="landing-image" />
+  <img src={img} className="landing-image" alt="landing"/>
 </div>
 
 </form>
